@@ -74,7 +74,7 @@ customer-segmentation-rfm/
 
 ---
 
-## 📖 Next Steps (Optional)  
+## 📖 Next Steps  
 - Automate segmentation pipeline for real-time dashboards.  
 - Try advanced clustering (DBSCAN, hierarchical clustering).  
 - Run A/B testing on campaigns for each customer group.  
