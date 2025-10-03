@@ -32,9 +32,12 @@ customer-segmentation-rfm/
 └── README.md
 
 
+
+
+
 ---
 
-## 📊 Methodology  
+**## 📊 Methodology  **
 1. **Data Cleaning**  
    - Removed missing values, negative quantities, duplicates.  
    - Converted data types (dates, customer IDs).  
@@ -76,7 +79,7 @@ customer-segmentation-rfm/
 
 ---
 
-## 📖 Next Steps  
+## 📖 Next Steps 
 - Automate segmentation pipeline for real-time dashboards.  
 - Try advanced clustering (DBSCAN, hierarchical clustering).  
 - Run A/B testing on campaigns for each customer group.  
