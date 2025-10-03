@@ -1,83 +1,87 @@
-# 🛍️ Customer Segmentation with RFM Analysis & K-Means Clustering  
+# Customer Segmentation using RFM Analysis
 
-## 📌 Project Overview  
-This project analyzes an **e-commerce dataset** to segment customers and generate actionable business insights.  
-We applied both **RFM (Recency, Frequency, Monetary) analysis** and **K-Means clustering** to identify customer groups and provide recommendations for marketing and business strategy.  
-
-👉 The aim is to combine **business intuition (RFM)** with **machine learning (K-Means)** for a balanced and data-driven segmentation approach.  
+**Tech Stack:** Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 ---
 
-## 🛠️ Key Skills & Technologies  
-- **Data Cleaning & Preprocessing** → handling missing values, duplicates, outliers.  
-- **Exploratory Data Analysis (EDA)** → pandas, matplotlib, seaborn.  
-- **Customer Segmentation** → RFM scoring & unsupervised clustering (K-Means).  
-- **Evaluation & Business Interpretation** → comparing rule-based vs ML approaches.  
-- **Storytelling with Data** → visuals & executive presentation.  
+## 📁 Repository Structure
 
-**Tech Stack:** Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
-
----
-
-## 📂 Repository Structure  
-
+```
 customer-segmentation-rfm/
 │
 ├── notebooks/
-│   └── customer_segmentation_rfm.ipynb   # Full analysis notebook
+│   └── customer_segmentation_rfm.ipynb    # Full analysis notebook
+│
 ├── slides/
-│   └── Customer_Segmentation_Presentation.pdf   # Executive summary slides
-├── data/   
+│   └── Customer_Segmentation_Presentation.pdf    # Executive summary slides
+│
+├── data/    
+│
 └── README.md
+```
 
 ---
 
-## 📊 Methodology  
-1. **Data Cleaning**  
-   - Removed missing values, negative quantities, duplicates.  
-   - Converted data types (dates, customer IDs).  
+## 📊 Methodology
 
-2. **RFM Analysis**  
-   - Calculated Recency, Frequency, Monetary per customer.  
-   - Applied segmentation rules: Champions, Loyal, At Risk, Lost.  
+1. **Data Cleaning**
+   - Removed missing values, negative quantities, duplicates.
+   - Converted data types (dates, customer IDs).
 
-3. **K-Means Clustering**  
-   - Standardized RFM values.  
-   - Determined optimal clusters using the Elbow Method.  
-   - Compared clustering vs RFM scoring.  
+2. **RFM Analysis**
+   - Calculated Recency, Frequency, Monetary per customer.
+   - Applied segmentation rules: Champions, Loyal, At Risk, Lost.
 
-4. **Visualization & Insights**  
-   - Histograms, scatter plots, revenue per segment.  
-   - Highlighted differences between RFM vs K-Means results.  
+3. **K-Means Clustering**
+   - Standardized RFM values.
+   - Determined optimal clusters using the Elbow Method.
+   - Compared clustering vs RFM scoring.
 
----
-
-## 💡 Key Insights  
-- **Champions** → small group, highest individual spend → retention priority.  
-- **Loyal Customers** → largest group, steady contributors → upsell opportunity.  
-- **At Risk / Lost** → low spend, inactive → reactivation campaigns.  
-- K-Means validated **3 main segments**, broadly aligning with RFM.  
+4. **Visualization & Insights**
+   - Histograms, scatter plots, revenue per segment.
+   - Highlighted differences between RFM vs K-Means results.
 
 ---
 
-## 🚀 Deliverables  
-- 📓 [Jupyter Notebook](notebooks/customer_segmentation_rfm.ipynb) — full analysis  
-- 📊 [Executive Summary Slides (PDF)](slides/Customer_Segmentation_Presentation.pdf) — business storytelling  
-- 🗂️ GitHub repository with clean code & documentation  
+## 💡 Key Insights
+
+- **Champions** → small group, highest individual spend → retention priority.
+- **Loyal Customers** → largest group, steady contributors → upsell opportunity.
+- **At Risk / Lost** → low spend, inactive → reactivation campaigns.
+- K-Means validated **3 main segments**, broadly aligning with RFM.
 
 ---
 
-## 📈 Business Recommendations  
-- **Retain Champions** → loyalty programs, exclusive perks.  
-- **Grow Loyal Customers** → targeted upsell/cross-sell.  
-- **Recover At Risk/Lost** → reactivation offers & campaigns.  
+## 🚀 Deliverables
+
+- 📓 [Jupyter Notebook](notebooks/customer_segmentation_rfm.ipynb) — full analysis
+- 📊 [Executive Summary Slides (PDF)](slides/Customer_Segmentation_Presentation.pdf) — business storytelling
+- 🗂️ GitHub repository with clean code & documentation
 
 ---
 
-## 📖 Next Steps (Optional)  
-- Automate segmentation pipeline for real-time dashboards.  
-- Try advanced clustering (DBSCAN, hierarchical clustering).  
-- Run A/B testing on campaigns for each customer group.  
+## 📈 Business Recommendations
+
+- **Retain Champions** → loyalty programs, exclusive perks.
+- **Grow Loyal Customers** → targeted upsell/cross-sell.
+- **Recover At Risk/Lost** → reactivation offers & campaigns.
 
 ---
 
+## 📖 Next Steps (Optional)
+
+- Automate segmentation pipeline for real-time dashboards.
+- Try advanced clustering (DBSCAN, hierarchical clustering).
+- Run A/B testing on campaigns for each customer group.
+
+---
+
+## 👤 Author
+
+Omar Saqr(https://github.com/Omarsaqr)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
