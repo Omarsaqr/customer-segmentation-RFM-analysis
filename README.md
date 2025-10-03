@@ -21,7 +21,6 @@ We applied both **RFM (Recency, Frequency, Monetary) analysis** and **K-Means cl
 
 ## 📂 Repository Structure  
 
-```text
 customer-segmentation-rfm/
 │
 ├── notebooks/
