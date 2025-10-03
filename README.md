@@ -3,10 +3,17 @@
 **Tech Stack:** Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 ---
+🎯 Project Overview
+This project performs customer segmentation analysis on transactional e-commerce data to identify distinct customer groups based on their purchasing behavior. By combining RFM (Recency, Frequency, Monetary) analysis with K-Means clustering, the project delivers actionable insights for targeted marketing strategies.
+Key Objectives:
 
-## 📁 Repository Structure
+Segment customers into meaningful groups (Champions, Loyal, At Risk, Lost)
+Compare rule-based RFM scoring with machine learning clustering
+Provide data-driven recommendations for customer retention and revenue growth
 
-```
+Business Impact: Enable marketing teams to tailor campaigns, prioritize high-value customers, and re-engage inactive users through personalized strategies.
+
+📁 Repository Structure
 customer-segmentation-rfm/
 │
 ├── notebooks/
@@ -15,10 +22,9 @@ customer-segmentation-rfm/
 ├── slides/
 │   └── Customer_Segmentation_Presentation.pdf    # Executive summary slides
 │
-├── data/    
+├── data/    # (optional - not shared if dataset is large/restricted)
 │
 └── README.md
-```
 
 ---
 
