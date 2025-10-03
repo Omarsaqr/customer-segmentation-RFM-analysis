@@ -27,7 +27,7 @@ customer-segmentation-rfm/
 │   └── customer_segmentation_rfm.ipynb   # Full analysis notebook
 ├── slides/
 │   └── Customer_Segmentation_Presentation.pdf   # Executive summary slides
-├── data/   (optional - not shared if dataset is large/restricted)
+├── data/   
 └── README.md
 
 ---
