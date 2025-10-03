@@ -21,13 +21,14 @@ We applied both **RFM (Recency, Frequency, Monetary) analysis** and **K-Means cl
 
 ## 📂 Repository Structure  
 
+```text
 customer-segmentation-rfm/
 │
 ├── notebooks/
-│ └── customer_segmentation_rfm.ipynb # Full analysis notebook
+│   └── customer_segmentation_rfm.ipynb   # Full analysis notebook
 ├── slides/
-│ └── Customer_Segmentation_Presentation.pdf # Executive summary slides
-├── data/ (optional - not shared if dataset is large/restricted)
+│   └── Customer_Segmentation_Presentation.pdf   # Executive summary slides
+├── data/   (optional - not shared if dataset is large/restricted)
 └── README.md
 
 ---
